@@ -15,13 +15,19 @@ type Customer{
 
 }
 
+type Plan{
+	planID:ID!
+	
+	name:String 
+}
+
 
 
 type Query {
 	message:String
 	id:Int
   customers:[Customer]
-	
+	plans:[Plan]
   }
 
 
