@@ -1,0 +1,30 @@
+type Customer{
+	phoneNumber:ID!
+	
+	name:String 
+	
+	age:Int 
+	
+	gender:String 
+	
+	address:String 
+	
+	planID: Int
+	
+	password:String 
+
+}
+
+
+
+type Query {
+	message:String
+	id:Int
+  customers:[Customer]
+	
+  }
+
+
+
+  
+  
